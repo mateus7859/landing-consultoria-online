@@ -1,0 +1,17 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--color-background); color: var(--color-ink); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; }
+button { border: 0; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+figure, h1, p { margin: 0; }
+[hidden] { display: none !important; }
+#app { display: flex; flex-direction: column; min-height: 100vh; min-height: 100svh; }
+.container { width: min(calc(100% - var(--page-gutter) * 2), var(--content-width)); margin-inline: auto; }
+.site-main { display: flex; flex: 1; align-items: center; }
+::selection { color: var(--color-ink); background: var(--color-sage); }
+:focus-visible { outline: 3px solid var(--color-green); outline-offset: 5px; }
+.skip-link { position: absolute; top: 12px; left: 24px; z-index: 10; padding: 12px 18px; background: var(--color-surface); border-radius: 8px; transform: translateY(-160%); }
+.skip-link:focus { transform: translateY(0); }
+.noscript-notice { margin: 40px auto; max-width: 600px; padding: 24px; line-height: 1.7; }

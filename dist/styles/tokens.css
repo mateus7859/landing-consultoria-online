@@ -1,0 +1,18 @@
+/* EDITE AQUI: identidade visual. Não há fontes ou dependências externas. */
+:root {
+  --color-background: #f7f8f4;
+  --color-surface: #ffffff;
+  --color-sage: #dce8d6;
+  --color-sage-light: #edf2e8;
+  --color-green: #496245;
+  --color-ink: #1d251e;
+  --color-muted: #60665d;
+  --color-line: #dfe3d9;
+  --color-on-dark: #ffffff;
+  --font-body: "Helvetica Neue", Arial, sans-serif;
+  --font-heading: Georgia, "Times New Roman", serif;
+  --content-width: 1200px;
+  --page-gutter: clamp(24px, 5vw, 72px);
+  --radius-visual: 28px;
+  --radius-button: 100px;
+}
